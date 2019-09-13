@@ -11,7 +11,7 @@ from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import TfidfVectorizer
 # O Seguinte comando é utilizado para executar funções do matplotlib no
 # jupyter notebook
-# %matplotlib inline
+%matplotlib inline
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score

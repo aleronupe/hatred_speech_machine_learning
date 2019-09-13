@@ -8,3 +8,5 @@ WORKDIR /GPAM
 COPY requirements.txt /GPAM/
 RUN pip install -r requirements.txt
 COPY . /GPAM/
+
+CMD jupyter notebook
